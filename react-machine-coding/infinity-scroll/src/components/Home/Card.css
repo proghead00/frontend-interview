@@ -1,0 +1,17 @@
+.card {
+  font-size: 30px;
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+  padding: 0px 5px 5px 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #c9d3f5;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}

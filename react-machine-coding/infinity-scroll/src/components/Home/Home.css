@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-limit {
+  font-size: 20px;
+}
+
+.home {
+  margin: 54px;
+}
