@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Path Finder</title>
+  </head>
+  <body>
+    <!-- ----------------- -->
+    <div>
+      <div id="rootA">
+        <div>
+          <div>
+            <div></div>
+            <div id="nodeA">Node A</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------- -->
+
+    <div>
+      <div id="rootB">
+        <div>
+          <div>
+            <div></div>
+            <div id="nodeA">Node B</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="finder.js"></script>
+</html>
