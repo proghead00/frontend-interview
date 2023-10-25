@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-field">
+        <div class="input-box">
+          <input
+            class="input-field"
+            onkeyup="saveOnEnter(event)"
+            type="text"
+            placeholder="Enter todo"
+          />
+          <span class="cross-input" onclick="clearInputField()">❌</span>
+        </div>
+      </div>
+
+      <button class="add-todo" onclick="addTodos()">
+        Add Todo to the list
+      </button>
+
+      <!-- using event bubbling here so that li's get affected with the function -->
+      <ul
+        class="todo-list-container"
+        onclick="removeTodos(event)"
+        ondblclick="editTodo(event)"
+      ></ul>
+    </div>
+  </body>
+  <script src="Todo.js"></script>
+  <script src="index.js"></script>
+</html>
