@@ -1,0 +1,18 @@
+.listBoxContainer {
+  margin: 15px;
+  list-style: none;
+}
+
+.listBoxItem {
+  background-color: beige;
+  border-radius: 25px;
+  color: black;
+  margin: 6px;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.activeItem {
+  background-color: #d4cdcd;
+  color: black;
+}
