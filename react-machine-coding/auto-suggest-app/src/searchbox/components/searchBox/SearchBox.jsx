@@ -79,7 +79,7 @@ const SearchBox = ({
 
       {data && data.length > 0 && listBox(data, activeIndex)}
       {query && data && data.length === 0 && noItemMsg()}
-      {error && noItemMsg()}
+      {error && errMsg()}
     </>
   );
 };
