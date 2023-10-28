@@ -1,0 +1,30 @@
+.progress-container {
+  width: 50%;
+  margin: 100px auto;
+  border: 2px solid rgb(38, 93, 26);
+  background-color: rgb(240, 236, 236);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-fill {
+  background-color: rgb(90, 235, 146);
+  height: 100%;
+  /* width: 50%; */
+  /* transform: translateX(-40%); */
+  /* transition: transform 0.8s; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.percentage-value {
+  color: black;
+  /* z-index: 2; */
+  position: absolute;
+}
